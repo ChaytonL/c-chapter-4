@@ -18,6 +18,14 @@ int main()
 	cin >> DepositPercentage;
 
 	DepositTotal = DepositPercentage / 100;
+	SavingsTotal = SharonYearly * DepositTotal;
+
+	cout << " Your savings account total is... $" << SavingsTotal << endl;
+
+
+
+	system("pause");
+	return 0;
 
 
 
